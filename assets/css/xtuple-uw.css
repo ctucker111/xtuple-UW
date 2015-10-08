@@ -1,0 +1,154 @@
+
+html{
+    position:relative;
+    min-height: 100%;
+}
+body {
+    padding: 0 0 200px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #aaaaaa;
+    background: #ffffff;
+    margin-bottom: 45px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 27px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+h4 {
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+    padding-top: 2px;
+}
+
+h5 {
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 35px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+h6 {
+    font-size: 14px;
+    color: #0177ff;
+    margin: 0;
+    padding-top: 2px;
+}
+
+hr {
+    margin: 3px 0;
+}
+
+/** HEADER **/
+
+.header {
+    color:#fff;
+    background-color: #4b2e83;
+    padding: 20px;
+    text-align: right;
+    font-size:1.1em;
+}
+
+.header img {
+    padding-left:11px;
+    padding-right:10px;
+    margin-bottom: 4px;
+}
+
+/** FOOTER **/
+
+.footer p {
+    font-size: .875em;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    border-top: 1px;
+    padding: 0 0 7px 0;
+    width: 100%;
+}
+
+.footer-link li {
+    list-style: none;
+    color:#333;
+    font-size: 0.778em;
+    font-weight: 400;
+}
+
+.footer-link li a {
+    color:#333;
+}
+
+.footer-link ul {
+    padding-left:0;
+    padding-top: 3px;
+}
+.footer-link {
+    font-size: 1.125em;
+    color: #000;
+    font-weight: 600;
+}
+
+.fa {
+    padding-right: 5px;
+}
+
+/** CONTENT **/
+
+.logo {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.downloads {
+    margin-top: 50px;
+    text-align:center;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        margin-bottom:0;
+    }
+    .footer {
+        padding-left: 15px;
+    }
+    body {
+        padding-bottom:400px;
+    }
+    .row.downloads > div {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .row.downloads > div {
+        margin-bottom: 50px;
+    }
+}
+
+
