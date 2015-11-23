@@ -46,6 +46,14 @@
             margin-bottom: 45px;
         }
 
+        .help {
+            float: right;
+            font-size: 1.4em;
+            font-weight: 400;
+            margin-top: 25px;
+            margin-right: 20px;
+        }
+
         .downloads {
             margin-top: 50px;
             text-align:center;
@@ -72,6 +80,12 @@
         @media (min-width: 768px) {
             .row.downloads > div {
                 margin-bottom: 50px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .help {
+                float:none;
             }
         }
 
@@ -153,6 +167,7 @@
     <div class="row">
         <div class="logo col-md-12">
             <a href="http://xtuple.com/" target="_blank"><img src="assets/img/xtuple-logo.png"/></a>
+            <div class="help"><a href="https://www.xtuple.org/forums/xtuple-erp/higher-ed" target="_blank">Help Forum</a></div>
         </div>
     </div>
     <div class="row downloads">
